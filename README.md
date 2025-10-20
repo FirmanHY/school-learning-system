@@ -76,7 +76,10 @@ npm install
 
 ### 3 Configure Environment Variables
 
-- bash cp .env.example to .env
+- 
+```bash 
+cp .env.example to .env
+```
 - Fill in your Google OAuth credentials and secrets:
 
 ```bash
@@ -91,7 +94,7 @@ SESSION_SECRET=your-session-secret
 
 ### 1 Backend
 
-1. Start the server:
+- 1. Start the server:
 
 ```bash
 node server/src/app.js
@@ -101,7 +104,7 @@ node server/src/app.js
 
 ### 2 Frontend
 
-1. Open login.html in your browser (e.g., via live server or directly).
+- Open login.html in your browser (e.g., via live server or directly).
    - For development, use a simple HTTP server like npx http-server in the root directory.
    - Access: http://localhost:8080/login.html (adjust port as needed).
 
