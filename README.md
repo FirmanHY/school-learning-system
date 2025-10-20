@@ -61,22 +61,22 @@ Before running the application, ensure you have:
 
 ## Installation
 
-### 1 Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone <your-repo-url>
 cd server
 ```
 
-### 2 Install Backend Dependencies
+### 2. Install Backend Dependencies
 
 ```bash
 npm install
 ```
 
-### 3 Configure Environment Variables
+### 3. Configure Environment Variables
 
-- 
+- Copy
 ```bash 
 cp .env.example to .env
 ```
@@ -92,9 +92,9 @@ SESSION_SECRET=your-session-secret
 
 ## Running The Application
 
-### 1 Backend
+### 1. Backend
 
-- 1. Start the server:
+- Start the server:
 
 ```bash
 node server/src/app.js
@@ -102,7 +102,7 @@ node server/src/app.js
 
 - The API will run on http://localhost:3000.
 
-### 2 Frontend
+### 2. Frontend
 
 - Open login.html in your browser (e.g., via live server or directly).
    - For development, use a simple HTTP server like npx http-server in the root directory.
